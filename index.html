@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easter Blessing</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="landing-page">
+        <div class="welcome-container">
+            <h1>Welcome</h1>
+            <p>Click the link below to receive a special Easter blessing</p>
+            <a href="#" id="easterLink" class="easter-link">🌸 Happy Easter Blessing 🌸</a>
+        </div>
+    </div>
+
+    <!-- Easter Page Modal -->
+    <div id="easterModal" class="modal hidden">
+        <div class="modal-content">
+            <button id="closeBtn" class="close-btn">&times;</button>
+            
+            <div class="easter-container">
+                <h1 class="easter-greeting">✨ Happy Easter ✨</h1>
+                <p class="easter-message">May the spirit of resurrection bring light to your life</p>
+                
+                <div class="image-container">
+                    <img id="jesusImage" src="images/risen-jesus.jpg" alt="Risen Jesus Christ" class="jesus-image">
+                    
+                    <!-- Cloth animation elements -->
+                    <div class="cloth cloth-1"></div>
+                    <div class="cloth cloth-2"></div>
+                    <div class="cloth cloth-3"></div>
+                </div>
+
+                <div class="blessing-text">
+                    <p>"I am the resurrection and the life. He who believes in Me, though he may die, he shall live." - John 11:25</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
